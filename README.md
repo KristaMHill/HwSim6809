@@ -45,4 +45,5 @@ In writing the code I'm finding that I like also being able to "run
 the simulator," using a command line line environment.  Perhaps some
 day a graphical user interface can be incorporated. Having even a
 rudimentary simulator interface may be a benefit to my students.
----------------
+
+HwSim6809 Hardare Simulator for MC6809 Systems
