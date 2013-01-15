@@ -1,0 +1,21 @@
+HwSim6809 Hardare Simulator for MC6809 Systems
+version 0.1.0 - 01/15/2013 - Krista Hill - kmhill@hartford.edu
+=========
+This is a development version, the status is as follows:
+
+o The simulator exists as a compiled library and two Lua files.
+  Development thus far has been on Lubuntu Linux, with gcc and Lua 5.1
+o No build tools yet, the comments at the top of each module give
+  some idea of how to build the compiled library
+o No configuration files, details are in the Lua scripts
+o Can configure a memory system with RAM, ROM
+o No peripherals yet exist, not able to attach any peripberals yet
+o Can read an s19 file into a memory system
+o Can execute instructions, much of the instruction set is complete,
+  missing the long branches and branch to subroutine instructions.
+  Only software interrupts and reset are implemented
+o CmdFile.lua provides a simple interactive command line interface
+
+There is much to do, but primarily, testing is needed.  I've only run
+a very small number of example programs
+============
