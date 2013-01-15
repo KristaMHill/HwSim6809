@@ -10,7 +10,8 @@ MemsReadS19("ex08.s19")
 MemsDumpRange(0xC000,0x0020)
 MemsDumpRange(0xFFF0,0x0010)
 
-pc = CPU_Reset()
+CPU_Reset()
+pc = CPU_GetPCreg()
 for ix = 1,90 do
   CPU_ReportRegs()
   CPU_DisOpCode(pc)
