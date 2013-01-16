@@ -1,4 +1,4 @@
-HwSim6809 Hardare Simulator for MC6809 Systems
+HwSim6809 Hardware Simulator for MC6809 Systems
 =========
 
 Jan. 10, 2013 - This project is the experimental development of a 
